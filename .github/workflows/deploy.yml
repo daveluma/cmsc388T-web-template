@@ -24,5 +24,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd TestRepo
+            cd ..
+            cd pub
+            cd daveluma.github.io
             git pull
