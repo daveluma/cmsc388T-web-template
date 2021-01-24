@@ -26,5 +26,7 @@ jobs:
           script: |
               ls
               cd ..
+              ls
               cd pub
+              ls
               git clone git@github.com:daveluma/daveluma.github.io.git
