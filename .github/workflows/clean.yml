@@ -22,4 +22,4 @@ jobs:
           script: |
             cd ..
             cd pub
-            rm -rf daveluma.github.io
+            yes | rm -rf daveluma.github.io
