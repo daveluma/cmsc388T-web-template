@@ -24,4 +24,9 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-              git clone
+              ls
+              cd ..
+              ls
+              cd pub
+              ls
+              git clone https://github.com/daveluma/daveluma.github.io.git
